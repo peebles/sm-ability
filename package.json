@@ -1,0 +1,24 @@
+{
+  "name": "sm-ability",
+  "version": "1.0.0",
+  "description": "User ability wrapper function",
+  "main": "index.js",
+  "scripts": {
+    "test": "t/test-abilities.js",
+    "postinstall": "/bin/true"
+  },
+  "author": "Andrew Peebles",
+  "license": "ISC",
+  "dependencies": {
+    "casl": "git+https://github.com/peebles/casl.git",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.find": "^4.6.0",
+    "lodash.get": "^4.4.2",
+    "lodash.indexof": "^4.0.5",
+    "lodash.intersection": "^4.4.0",
+    "sift": "^7.0.1"
+  },
+  "devDependencies": {
+    "console.table": "^0.10.0"
+  }
+}
